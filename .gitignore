@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.egg-info/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Dataset and image cache
+data/images/
+data/*.zip
+*.tar.gz
+*.h5
+*.jpg
+*.png
+
+# Saved model artifacts
+saved/image_caption_model.h5
+saved/tokenizer.pkl
+saved/max_length.txt
+
+# Log files and temporary outputs
+*.log
+*.out
+*.tmp
+
+# Streamlit cache
+.streamlit/
+
+# OS/macOS/Windows system files
+.DS_Store
+Thumbs.db
